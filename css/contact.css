@@ -1,0 +1,23 @@
+.contact-content{
+
+    /* height: 395px; */
+    /* background-color: rgba(208,208,243);   */
+    height: 100vh;
+    margin-top: 32px;
+    padding: 0px 20px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    background-image: url('../img/IMG_20180204_110728.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+    border-radius: 12px;
+    z-index: -1;
+}
+

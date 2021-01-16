@@ -1,0 +1,83 @@
+/* yahn per khch utility classes hon gi */
+
+/* class ka aesa naam dena jahn sara content center mae  a jae */
+/* 1 level */
+/* 2: right side */
+
+/* khch variables bi bna sktae hain */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+:root{
+    --main-bg-color: rgb(128, 88, 138);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+
+}
+.center{
+    text-align: center;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+
+
+
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw ;
+}
+/* margin auto kae lia */
+.m-auto{
+    margin: auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.my-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 2px 19px;
+    padding-top: 5px;
+    border: 3px solid black;
+    border-radius: 9px;
+    font-family: var(--font1);
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.form-input{
+    padding: 3px 20px;
+    padding-top: 7px;
+    font-size: 15px; 
+    border: 3px solid darkgoldenrod;
+    border-radius: 5px;
+    margin: 0 12px;
+    font-family: var(--font1);
+
+}
+.form-box input, textarea{
+    width: 60vw;
+    padding: 8px 6px;
+    margin: 10px 0px;
+    font-size: 15px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+
+}
+ 
